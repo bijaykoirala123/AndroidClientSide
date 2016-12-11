@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/cancel_booking"
+            android:title="Cancel Booking"
+            android:icon="@drawable/booking_48">
+        </item>
+    </group>
+
+    <!-- grouping social tabs -->
+    <item android:title="Social">
+        <menu>
+            <item
+                android:id="@+id/Facebook"
+                android:title="Facebook"
+                android:icon="@drawable/facebook_48">
+            </item>
+            <item
+                android:id="@+id/Twitter"
+                android:title="Twitter"
+                android:icon="@drawable/twitter_48">
+            </item>
+        </menu>
+    </item>
+
+    <!-- grouping logout and exit tab -->
+    <item android:title="App and User Control">
+        <menu >
+
+            <item android:id="@+id/logout_menu"
+                android:title="Logout"
+                android:icon="@drawable/logout_48">
+            </item>
+
+            <item android:id="@+id/exit_menu"
+                android:title="Exit"
+                android:icon="@drawable/exit_48">
+            </item>
+
+        </menu>
+    </item>
+</menu>
